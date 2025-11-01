@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "giveName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidityCourse2/Module1/timepass.sol": "Disha"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidityCourse2/Module1/timepass.sol": {
+			"keccak256": "0xee14cc39e4cc35ea761785a448cc71327cf118a2ed56d450a6e266b033886701",
+			"urls": [
+				"bzz-raw://42caed8c1d3d3b7b903ee88a456f9a46d462d0ae4ab11232c5df738456de92aa",
+				"dweb:/ipfs/QmavbyHX6mpaJBDQbX4Q2svZmQexNTAcM126Jj6Pqne6bd"
+			]
+		}
+	},
+	"version": 1
+}

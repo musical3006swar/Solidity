@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052620151805f553480156014575f80fd5b50603e8060205f395ff3fe60806040525f80fdfea2646970667358221220740e56f7e54d3936c60e0ab5a712e276cbe3c7f53b37ea8c09c78cd5fef28bdc64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH3 0x15180 PUSH0 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x14 JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x20 PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH21 0xE56F7E54D3936C60E0AB5A712E276CBE3C7F53B37 0xEA DUP13 MULMOD 0xC7 DUP13 0xD5 INVALID CALLCODE DUP12 0xDC PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "157:59:0:-:0;;;206:6;186:26;;157:59;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea2646970667358221220740e56f7e54d3936c60e0ab5a712e276cbe3c7f53b37ea8c09c78cd5fef28bdc64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH21 0xE56F7E54D3936C60E0AB5A712E276CBE3C7F53B37 0xEA DUP13 MULMOD 0xC7 DUP13 0xD5 INVALID CALLCODE DUP12 0xDC PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "157:59:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "22169",
+				"totalCost": "34569"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
