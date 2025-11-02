@@ -19,6 +19,35 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "t",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "setComMovie",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "setMovie",
 				"outputs": [],
@@ -83,11 +112,11 @@
 	},
 	"sources": {
 		"solidityCourse2/Module1/struct.sol": {
-			"keccak256": "0x176c618a0867cd2c663b06f32c0cc53d7dd46e189273ac196f26ab94deae839a",
+			"keccak256": "0x52fa6ec19c33ff8ae9bcf57b352d2f832c27fc9802946a18921302523b733cbc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://83217da2747860a52e4e4407ccbe2daf3a951210bcdff2a191b070c21890218e",
-				"dweb:/ipfs/QmaFAwiB1mHpDFjwkQkDtMWaTxx2qWuzvSPiCBcaKwHxMi"
+				"bzz-raw://901abb14cf8922b45d60e905275dde0fc672316e4462119455163599f52e7863",
+				"dweb:/ipfs/Qmc1iKoQbjCbWNFt6Gs3GezGVzr2R62rbpGhNASXYZN4gc"
 			]
 		}
 	},

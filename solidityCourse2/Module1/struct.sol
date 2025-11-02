@@ -20,6 +20,10 @@ contract structure{
         return movie.id;
     }
     Movie comedy;
+    function setComMovie(string memory n, string memory t,uint i) public returns(uint){
+        comedy=Movie(n,t,i);
+        return comedy.id;
+    }
 
 }
 
