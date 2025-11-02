@@ -33,19 +33,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "show",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "test",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -80,11 +67,11 @@
 	},
 	"sources": {
 		"solidityCourse2/Module1/arrays.sol": {
-			"keccak256": "0xfa9a121bb35a48a290b221afd9ca7dec6d8138149682d01d2001d4af31cc1afa",
+			"keccak256": "0x1f17645e0ec2af2f1d67a42a13e9c48bb8e94fe072a047ad67e962525c974831",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4d380c5b63cb0f44c8158feb9a744a8c695d6755bba25ac314bb64efb7cb4f0f",
-				"dweb:/ipfs/QmRU4PGnmJoR8z8NWpJBQrRwAvHYxzeTWNM3a36CBX6ayq"
+				"bzz-raw://a195e2febfd36ed10bc7c2b41f4d584f9034ba39353bf6030ac2715ac8910cf2",
+				"dweb:/ipfs/QmYq1dG6osjafhwLX4BmrbmdVAoK8dNdpeFWLxLQK384DB"
 			]
 		}
 	},
