@@ -8,48 +8,29 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_myAdd",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "_i",
 						"type": "uint256"
 					}
 				],
-				"name": "addVal",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_adr",
-						"type": "address"
-					}
-				],
-				"name": "deleteVal",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "myMap",
+				"name": "addMovie",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "director",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Mapping.Movie",
 						"name": "",
-						"type": "uint256"
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -58,17 +39,45 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_adr",
-						"type": "address"
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "t",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
 					}
 				],
-				"name": "showVal",
-				"outputs": [
+				"name": "addMovie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "myMap",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "director",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -88,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityCourse2/Module1/mapping.sol": "Mapping"
+			"solidityCourse2/Module1/mappingStruct.sol": "Mapping"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -102,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidityCourse2/Module1/mapping.sol": {
-			"keccak256": "0xb012ab52a5b975cf259216d2d4ffceae1e9b2931f80d5145a8d593593bbecd3f",
+		"solidityCourse2/Module1/mappingStruct.sol": {
+			"keccak256": "0xe6eea4379a5275efd8a8db1bef3f3d08c7c6dd3928d6c7334a5f703b778ced3e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e55cd09327bf96ad6c4acedb806e6dd17596a188e90898f6c7c92ee2b01dc4a",
-				"dweb:/ipfs/QmXjdYUA6Ui5sBEbwYyf9S79qUELx38aPZNgZAdjcxfLdB"
+				"bzz-raw://caf35770d218e1811cdf3fa3bdc207ce3779bd7bb5dc510093177621fb51a61a",
+				"dweb:/ipfs/QmQeQFVGngeo18jKsuZLrLWwpGUXwNX21by63HQkqsCz8Z"
 			]
 		}
 	},
