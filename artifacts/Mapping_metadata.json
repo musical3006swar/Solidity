@@ -82,6 +82,50 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "remMov",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "show",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "director",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Mapping.Movie",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -112,11 +156,11 @@
 	},
 	"sources": {
 		"solidityCourse2/Module1/mappingStruct.sol": {
-			"keccak256": "0xe6eea4379a5275efd8a8db1bef3f3d08c7c6dd3928d6c7334a5f703b778ced3e",
+			"keccak256": "0x047b3359fa04e1589c53072f89dcc7557bdfa4e3a9c58980914bbafa816a3228",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://caf35770d218e1811cdf3fa3bdc207ce3779bd7bb5dc510093177621fb51a61a",
-				"dweb:/ipfs/QmQeQFVGngeo18jKsuZLrLWwpGUXwNX21by63HQkqsCz8Z"
+				"bzz-raw://ae61ec25b996ec72b4561c0dc2abf80bd4a9f7c97b2456134ea9cb6b4335843e",
+				"dweb:/ipfs/Qmc1vWJZRd2ujdckzVJxE6ChCHKPp1EzKrSV3TR9AhX3AA"
 			]
 		}
 	},

@@ -17,5 +17,11 @@ contract Mapping{
         return myMap[_i];
         
     }
+    function remMov(uint _i) public{
+        delete myMap[_i];
+    }
+    function show(uint _i) public view returns(Movie memory){
+        return myMap[_i];
+    }
     
 }
