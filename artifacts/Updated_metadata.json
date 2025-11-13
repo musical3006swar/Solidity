@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "updatesBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidityCourse2/Module2/globalVar.sol": "Updated"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidityCourse2/Module2/globalVar.sol": {
+			"keccak256": "0x9076efe3a23d3972290a7cd6917882d3cb1726f8b3b14bf366985299f85437d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6844a9284d273f9a301275ec1ab3442d86074bca2bc1db13874ecc54117dc98a",
+				"dweb:/ipfs/QmPcg1cgPsYBX2M3EudcH5Jf1YDXF3hgCViKJPYRQz287g"
+			]
+		}
+	},
+	"version": 1
+}
