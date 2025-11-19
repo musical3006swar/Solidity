@@ -31,6 +31,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "register",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -50,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityCourse2/Module3/payment.sol": "Register"
+			"solidityCourse2/Module3/paymentExcercise.sol": "Register"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -64,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidityCourse2/Module3/payment.sol": {
-			"keccak256": "0x6663fb0f373cbf7fb9b27734d7d400339276308c701af12e86b5724b0db919a1",
+		"solidityCourse2/Module3/paymentExcercise.sol": {
+			"keccak256": "0x7c0d0809b7342796276de9edb35f2f46329bd8f36b1ceb390b985a43dd2ecd9a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e2596e3fb91edc3d973d10a8d36e4d4ccbf8d68a0a9608919982014a52d8415b",
-				"dweb:/ipfs/QmRVKYZvchsX582TzdRNKrpdQnYxYyNkhLUS56SPWHQKox"
+				"bzz-raw://a6d6febcd6a636aa2b4dd754cada8804c93fec776b6bd8e0a7368790cc8d08c0",
+				"dweb:/ipfs/QmSjK3Cc2apJQ4a7cywHePJE9tFKYZriTxnGPkQnrBMsfD"
 			]
 		}
 	},
