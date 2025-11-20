@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "range",
+						"type": "uint256"
+					}
+				],
+				"name": "randGen",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidityCourse2/Module3/generateRandomNum.sol": "GenerateRandomNumber"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidityCourse2/Module3/generateRandomNum.sol": {
+			"keccak256": "0x70eaba718a859028e52293e17a1d71871d4d026b5ec6e71b866637f993b00406",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a450385e625b7a69aa6c9bcb091fcc7f6d294e456ee132392c9c7dc889a327b3",
+				"dweb:/ipfs/QmPmXRdqQFD6aJti8a878M9zbWKVRjuFGBy6MRbBmQ2sRL"
+			]
+		}
+	},
+	"version": 1
+}
