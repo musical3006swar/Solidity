@@ -6,38 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_oracleAddress",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "oracle",
-				"outputs": [
-					{
-						"internalType": "contract Oracle",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "range",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "randGen",
+				"name": "assign",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rand",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -62,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityCourse2/Module3/generateRandomNum.sol": "GenerateRandomNumber"
+			"solidityCourse2/Module3/generateRandomNum.sol": "Oracle"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
