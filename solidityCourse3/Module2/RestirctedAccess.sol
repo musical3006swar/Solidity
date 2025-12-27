@@ -19,7 +19,7 @@ contract RestrictedAccess{
         owner=own;
 
     }
-    function disown() onlyBy(owner) public{
+    function disown() onlyBy(owner) onlyAfter(creationTime+3 weeks) public{
         delete owner;
     }
 }
