@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isItAContract",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidityCourse3/Module1/vul_test.sol": "victim"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidityCourse3/Module1/vul_test.sol": {
+			"keccak256": "0xe1a6e138cb83a3868adb9a629202174b4f7480425786172989af48f967a9b873",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebd0dc128befb46e47eb3cf919c061eed407b5bf02516ef0b3fbe5240ec38de4",
+				"dweb:/ipfs/QmPQdzmPP8DzRCRotZM3jjNDuBAcwQMRGPkcFVKhcj7MK4"
+			]
+		}
+	},
+	"version": 1
+}
