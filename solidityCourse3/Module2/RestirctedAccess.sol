@@ -15,11 +15,20 @@ contract RestrictedAccess{
         _;
     }
 
+    modifier costs(uint cost){
+        require(msg.value>cost,"Not enough ether's");
+        _;
+    }
+
     function changeOwner(address own) onlyBy(owner) public{
         owner=own;
 
     }
     function disown() onlyBy(owner) onlyAfter(creationTime+3 weeks) public{
         delete owner;
+    }
+
+    function forceChangeOwner(address newOwner) payable public costs(200 ether){
+        owner=newOwner;
     }
 }

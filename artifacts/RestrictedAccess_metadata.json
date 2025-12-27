@@ -39,6 +39,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "forceChangeOwner",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -80,11 +93,11 @@
 	},
 	"sources": {
 		"solidityCourse3/Module2/RestirctedAccess.sol": {
-			"keccak256": "0x652833e83029b5fe4d9c208d2c5346d1a677bbab52903ff6d57b121c032f00ea",
+			"keccak256": "0x5bc5dbad4420c7e2ef007c7eefd112315fc2a8dce6eb7cb6801fb889315ddc70",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a55bd040f74f186aaf5b07aedcd09442459a55ba31f7d3803334b7a40f686b59",
-				"dweb:/ipfs/QmRTGfBqFrKRp3xmm5RpUTVxka86NQeUoqeEVxyHfiQWoB"
+				"bzz-raw://98d50c0fab7c902e41b61ae9a254bab7212c0255f5f0a1f4f5eda6a9fba979eb",
+				"dweb:/ipfs/QmeBCTJVaTGvR8m32wnsTn5VKeQdZbuWDNMn5oz1BrE968"
 			]
 		}
 	},
