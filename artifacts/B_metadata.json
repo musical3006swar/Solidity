@@ -7,50 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getInnerVal",
+				"name": "y",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "val",
-						"type": "uint256"
-					}
-				],
-				"name": "innerAddTen",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amt",
-						"type": "uint256"
-					}
-				],
-				"name": "outerAddTen",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -70,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidityCourse3/Module3/Iheritance.sol": "B"
+			"solidityCourse3/Module3/Abstract.sol": "B"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -84,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidityCourse3/Module3/Iheritance.sol": {
-			"keccak256": "0xf624808834d23345e8d0ebcae1268439f6156bc07baabff9a4950b2197c0d9dc",
+		"solidityCourse3/Module3/Abstract.sol": {
+			"keccak256": "0x333cdf1807c52f40cdb6bcd6ddf2519e4ee1323f8580027f9165fba55f297078",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0546a479fb67e8b87d09078fd65aaa1d158247f16bc805b0ab30aaf2c326a6da",
-				"dweb:/ipfs/Qmcrae65umisCXvQnkAKczD1J6zVJ7kiaQU1CLCwzXxCYm"
+				"bzz-raw://cc178ba163c8e104627dbe7af22734330207d200399151d629a598d699a52f59",
+				"dweb:/ipfs/QmTeFaGMJPMc5A4nw7gpTh27cTB4ZUuf2iFVvVmfATGfre"
 			]
 		}
 	},
