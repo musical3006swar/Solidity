@@ -33,6 +33,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "disown",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -73,11 +80,11 @@
 	},
 	"sources": {
 		"solidityCourse3/Module2/RestirctedAccess.sol": {
-			"keccak256": "0x4da40467a0fd5d97bed2996f99faca2d0c105f123c9c31aa86025008f71ac37f",
+			"keccak256": "0xfa9de681312df4c80d08c8ec28012337ac399b8c9aeb9b8334b9b89ef240cba2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9c901b4ff802b5075b9925a3b0b03406156216748aff8c87c7ea682e5a2e2e7",
-				"dweb:/ipfs/QmXz4hPNtvLr9YjyW9fm9B7Xia2Yh7Xr8GNu2XpYKvj4Yh"
+				"bzz-raw://ae74ef2e6e5397e1380da49ecf6fb9c0ec3618bef1e6bc4ad2ea46281cee187c",
+				"dweb:/ipfs/QmP2LSTy3mLeEPrqchaksQydsekhGdXQAXngAzdCBTfC7s"
 			]
 		}
 	},

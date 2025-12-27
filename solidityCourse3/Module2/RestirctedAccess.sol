@@ -10,8 +10,16 @@ contract RestrictedAccess{
         _;
     }
 
+    modifier onlyAfter(uint time){
+        require(block.timestamp>=time,"Too early");
+        _;
+    }
+
     function changeOwner(address own) onlyBy(owner) public{
         owner=own;
 
+    }
+    function disown() onlyBy(owner) public{
+        delete owner;
     }
 }
